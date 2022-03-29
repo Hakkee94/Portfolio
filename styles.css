@@ -1,0 +1,382 @@
+body{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    min-width: 465px;
+    background-image: linear-gradient( 114.9deg,  rgba(34,34,34,1) 8.3%, rgba(0,40,60,1) 41.6%, rgba(0,143,213,1) 93.4% );
+}
+
+li {
+    color: #E0FFFF;
+}
+
+h1{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    width: 626px;
+    text-shadow: 0px 0px 76px rgba(188, 251, 195, 0.3);
+    color: #E0FFFF;
+    text-align: center;
+}
+
+h2{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    letter-spacing: 0.1px;
+    margin:3px 0;
+    color: #ECF8FF;
+    padding-bottom: 13px;
+}
+
+h3{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin:3px 0;
+    align-self: center;
+    color: #ECF8FF;
+}
+
+h4{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    margin:3px 0;
+    color: #ECF8FF;
+}
+
+span{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #E0FFFF;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    padding-top: 65px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-articles{
+    display: flex;
+    width: 500px;
+    justify-content: inherit;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+}
+
+.heart{
+    margin-right: 20px;
+}
+
+
+.heart-size{
+    width: 23px;
+    height: 21px;
+}
+
+.selfInfo-size{
+    max-width: 590px;
+}
+
+.subtitle{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    color: #ECF8FF;
+}
+
+.first-content{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 150px;
+    align-items: center;
+}
+
+.subtitle-tall{
+    font-family: Jost*;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.article-position{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
+}
+
+.flex{
+    display: flex;
+}
+
+.article-date{
+    display: flex;
+    padding-bottom: 30px;
+    flex-direction: column;
+}
+
+.logo-plus-text {
+    display: flex;
+    align-items: center;
+}
+
+.pad-right10{
+    padding-right: 10px;
+}
+
+.projects-article{
+    display: flex;
+    padding-top: 85px;
+    padding-bottom: 28px;
+    justify-content: center;
+}
+
+.first-project-position{
+    background: #008B8B;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 35px;
+    width: 100%;
+    min-height: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.other-projects{
+    padding: 35px;
+    background: #008B8B;
+    border-radius: 8px;
+    height: 192px;
+    margin-bottom: 20px;
+    width: calc(50% - 80px);
+    min-width: 268px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.yawnch-font{
+    font-family: monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.1px;
+    margin:3px 0;
+    color: #ECF8FF;
+    padding-bottom: 11px;
+}
+
+.project-button {
+    width: 115px;
+    border-radius: 6px;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+.btn-grad {
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    width: 100%;
+    line-height: 23px;
+    font-weight: 500;
+    font-family: Jost;
+    justify-content: space-evenly;
+    display: flex;
+    height: 33px;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.workon{
+    background: #1C2C35;
+}
+
+.h1-position{
+    display: flex;
+    padding-top: 90px;
+}
+
+.prefooter-h2-size{
+    text-align: center;
+}
+
+.div-centre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat-size{
+    width: 112px;
+    height: 39px;
+}
+
+.chat{
+    padding-top: 46px;
+    padding-bottom: 82px;
+}
+
+.workon-font{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    text-shadow: 0px 0px 76px rgba(188, 251, 195, 0.3);
+    color: rgba(76, 251, 188, 1);
+    text-align: center;
+    font-weight: 700;
+}
+
+.footerh3-size{
+    display: flex;
+    margin-top: 59px;
+    height: 58px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 90px;
+}
+
+.footer-img{
+    width: 20px;
+    height: 20px;
+}
+
+.semi-divs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.first-project{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-h3{
+    width: 424px;
+}
+
+.footer-images{
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+}
+
+.article{
+    margin-bottom: 100px;
+}
+
+.last-article{
+    margin-bottom: 100px;
+}
+
+.colored-h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(122, 182, 217, 1);
+}
+
+.last-subtitle {
+    font-family: Jost*;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 66px;
+}
+
+    .introduction {
+        display: flex;
+        padding-bottom: 40px;
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        padding-top: 70px;
+        align-items: center;
+    }
+
+    .skill-list {
+        font-family: "Roboto Light";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 43px;
+        letter-spacing: 0.1px;
+        margin: 3px 0;
+        color: #ECF8FF;
+    }
+
+    .skill-logo {
+        width: 35px;
+        height: 35px;
+        padding-right: 10px;
+        padding-bottom: 13px;
+    }
+
+@media (max-width: 901px) {
+    .semi-divs > .yawnch-semi {
+        width: 100%;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
